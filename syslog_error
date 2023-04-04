@@ -1,0 +1,720 @@
+Apr  3 20:04:40 retropie systemd-modules-load[114]: Inserted module 'uinput'
+Apr  3 20:04:40 retropie systemd-modules-load[114]: Inserted module 'xpi_gamecon'
+Apr  3 20:04:40 retropie fake-hwclock[121]: Tue 04 Apr 2023 12:03:28 AM UTC
+Apr  3 20:04:40 retropie systemd[1]: Started Set the console keyboard layout.
+Apr  3 20:04:40 retropie systemd[1]: Started udev Coldplug all Devices.
+Apr  3 20:04:40 retropie systemd[1]: Starting Helper to synchronize boot up for ifupdown...
+Apr  3 20:04:40 retropie systemd-fsck[143]: e2fsck 1.44.5 (15-Dec-2018)
+Apr  3 20:04:40 retropie systemd[1]: Started Helper to synchronize boot up for ifupdown.
+Apr  3 20:04:40 retropie systemd-fsck[143]: retropie has gone 0 days without being checked, check forced.
+Apr  3 20:04:40 retropie systemd-fsck[143]: Pass 1: Checking inodes, blocks, and sizes
+Apr  3 20:04:40 retropie systemd-fsck[143]: Pass 2: Checking directory structure
+Apr  3 20:04:40 retropie systemd-fsck[143]: Pass 3: Checking directory connectivity
+Apr  3 20:04:40 retropie systemd-fsck[143]: Pass 4: Checking reference counts
+Apr  3 20:04:40 retropie systemd-fsck[143]: Pass 5: Checking group summary information
+Apr  3 20:04:40 retropie systemd-fsck[143]: retropie: 600650/7547136 files (0.6% non-contiguous), 30806433/31150592 blocks
+Apr  3 20:04:40 retropie systemd[1]: Started File System Check on Root Device.
+Apr  3 20:04:40 retropie systemd[1]: Starting Remount Root and Kernel File Systems...
+Apr  3 20:04:40 retropie systemd[1]: Started Remount Root and Kernel File Systems.
+Apr  3 20:04:40 retropie systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+Apr  3 20:04:40 retropie systemd[1]: Starting Load/Save Random Seed...
+Apr  3 20:04:40 retropie systemd[1]: Starting Create System Users...
+Apr  3 20:04:40 retropie systemd[1]: Starting Flush Journal to Persistent Storage...
+Apr  3 20:04:40 retropie systemd[1]: Started Load/Save Random Seed.
+Apr  3 20:04:40 retropie systemd[1]: Started Create System Users.
+Apr  3 20:04:40 retropie systemd[1]: Starting Create Static Device Nodes in /dev...
+Apr  3 20:04:40 retropie systemd[1]: Started Flush Journal to Persistent Storage.
+Apr  3 20:04:40 retropie kernel: [    0.000000] Booting Linux on physical CPU 0x0
+Apr  3 20:04:40 retropie systemd[1]: Started Create Static Device Nodes in /dev.
+Apr  3 20:04:40 retropie kernel: [    0.000000] Linux version 5.10.103-v7l+ (dom@buildbot) (arm-linux-gnueabihf-gcc-8 (Ubuntu/Linaro 8.4.0-3ubuntu1) 8.4.0, GNU ld (GNU Binutils for Ubuntu) 2.34) #1529 SMP Tue Mar 8 12:24:00 GMT 2022
+Apr  3 20:04:40 retropie systemd[1]: Reached target Local File Systems (Pre).
+Apr  3 20:04:40 retropie systemd[1]: Starting udev Kernel Device Manager...
+Apr  3 20:04:40 retropie systemd[1]: Started udev Kernel Device Manager.
+Apr  3 20:04:40 retropie systemd[1]: Condition check resulted in Show Plymouth Boot Screen being skipped.
+Apr  3 20:04:40 retropie systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+Apr  3 20:04:40 retropie systemd[1]: Reached target Local Encrypted Volumes.
+Apr  3 20:04:40 retropie kernel: [    0.000000] CPU: ARMv7 Processor [410fd083] revision 3 (ARMv7), cr=30c5383d
+Apr  3 20:04:40 retropie kernel: [    0.000000] CPU: div instructions available: patching division code
+Apr  3 20:04:40 retropie systemd[1]: Condition check resulted in Forward Password Requests to Plymouth Directory Watch being skipped.
+Apr  3 20:04:40 retropie kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, PIPT instruction cache
+Apr  3 20:04:40 retropie kernel: [    0.000000] OF: fdt: Machine model: Raspberry Pi 4 Model B Rev 1.4
+Apr  3 20:04:40 retropie kernel: [    0.000000] random: fast init done
+Apr  3 20:04:40 retropie kernel: [    0.000000] Memory policy: Data cache writealloc
+Apr  3 20:04:40 retropie systemd-udevd[188]: Using default interface naming scheme 'v240'.
+Apr  3 20:04:40 retropie kernel: [    0.000000] Reserved memory: created CMA memory pool at 0x000000000fc00000, size 256 MiB
+Apr  3 20:04:40 retropie kernel: [    0.000000] OF: reserved mem: initialized node linux,cma, compatible id shared-dma-pool
+Apr  3 20:04:40 retropie systemd-udevd[189]: Process '/usr/sbin/th-cmd --socket /var/run/thd.socket --passfd --udev' failed with exit code 1.
+Apr  3 20:04:40 retropie kernel: [    0.000000] Zone ranges:
+Apr  3 20:04:40 retropie kernel: [    0.000000]   DMA      [mem 0x0000000000000000-0x000000001fffffff]
+Apr  3 20:04:40 retropie kernel: [    0.000000]   Normal   empty
+Apr  3 20:04:40 retropie systemd[1]: Found device /dev/disk/by-partuuid/e22bcd10-01.
+Apr  3 20:04:40 retropie systemd-udevd[196]: Process '/usr/bin/jscal-restore /dev/input/js0' failed with exit code 1.
+Apr  3 20:04:40 retropie systemd-udevd[196]: Process '/usr/sbin/th-cmd --socket /var/run/thd.socket --passfd --udev' failed with exit code 1.
+Apr  3 20:04:40 retropie kernel: [    0.000000]   HighMem  [mem 0x0000000020000000-0x00000001ffffffff]
+Apr  3 20:04:40 retropie kernel: [    0.000000] Movable zone start for each node
+Apr  3 20:04:40 retropie systemd-udevd[184]: Process '/usr/sbin/th-cmd --socket /var/run/thd.socket --passfd --udev' failed with exit code 1.
+Apr  3 20:04:40 retropie kernel: [    0.000000] Early memory node ranges
+Apr  3 20:04:40 retropie kernel: [    0.000000]   node   0: [mem 0x0000000000000000-0x000000001fffffff]
+Apr  3 20:04:40 retropie kernel: [    0.000000]   node   0: [mem 0x0000000040000000-0x00000000fbffffff]
+Apr  3 20:04:40 retropie kernel: [    0.000000]   node   0: [mem 0x0000000100000000-0x00000001ffffffff]
+Apr  3 20:04:40 retropie kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000000000-0x00000001ffffffff]
+Apr  3 20:04:40 retropie kernel: [    0.000000] On node 0 totalpages: 1949696
+Apr  3 20:04:40 retropie systemd-udevd[196]: Using default interface naming scheme 'v240'.
+Apr  3 20:04:40 retropie kernel: [    0.000000]   DMA zone: 1152 pages used for memmap
+Apr  3 20:04:40 retropie kernel: [    0.000000]   DMA zone: 0 pages reserved
+Apr  3 20:04:40 retropie kernel: [    0.000000]   DMA zone: 131072 pages, LIFO batch:31
+Apr  3 20:04:40 retropie systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Apr  3 20:04:40 retropie kernel: [    0.000000]   HighMem zone: 1818624 pages, LIFO batch:63
+Apr  3 20:04:40 retropie kernel: [    0.000000] percpu: Embedded 20 pages/cpu s50828 r8192 d22900 u81920
+Apr  3 20:04:40 retropie kernel: [    0.000000] pcpu-alloc: s50828 r8192 d22900 u81920 alloc=20*4096
+Apr  3 20:04:40 retropie kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Apr  3 20:04:40 retropie kernel: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 1948544
+Apr  3 20:04:40 retropie systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+Apr  3 20:04:40 retropie kernel: [    0.000000] Kernel command line: coherent_pool=1M 8250.nr_uarts=0 snd_bcm2835.enable_compat_alsa=0 snd_bcm2835.enable_hdmi=1  smsc95xx.macaddr=E4:5F:01:09:75:48 vc_mem.mem_base=0x3ec00000 vc_mem.mem_size=0x40000000  console=ttyS0,115200 console=tty1 root=PARTUUID=e22bcd10-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait quiet loglevel=3 consoleblank=0 plymouth.enable=0 quiet logo.nologo
+Apr  3 20:04:40 retropie kernel: [    0.000000] Kernel parameter elevator= does not have any effect anymore.
+Apr  3 20:04:40 retropie kernel: [    0.000000] Please use sysfs to set IO scheduler for individual devices.
+Apr  3 20:04:40 retropie kernel: [    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes, linear)
+Apr  3 20:04:40 retropie systemd[1]: Condition check resulted in Huge Pages File System being skipped.
+Apr  3 20:04:40 retropie kernel: [    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes, linear)
+Apr  3 20:04:40 retropie kernel: [    0.000000] mem auto-init: stack:off, heap alloc:off, heap free:off
+Apr  3 20:04:40 retropie kernel: [    0.000000] software IO TLB: mapped [mem 0x0000000007400000-0x000000000b400000] (64MB)
+Apr  3 20:04:40 retropie kernel: [    0.000000] Memory: 7382088K/7798784K available (10240K kernel code, 1366K rwdata, 3196K rodata, 2048K init, 882K bss, 154552K reserved, 262144K cma-reserved, 7274496K highmem)
+Apr  3 20:04:40 retropie kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Apr  3 20:04:40 retropie systemd[1]: Condition check resulted in FUSE Control File System being skipped.
+Apr  3 20:04:40 retropie kernel: [    0.000000] ftrace: allocating 34355 entries in 101 pages
+Apr  3 20:04:40 retropie kernel: [    0.000000] ftrace: allocated 101 pages with 4 groups
+Apr  3 20:04:40 retropie kernel: [    0.000000] rcu: Hierarchical RCU implementation.
+Apr  3 20:04:40 retropie kernel: [    0.000000] 	Rude variant of Tasks RCU enabled.
+Apr  3 20:04:40 retropie kernel: [    0.000000] 	Tracing variant of Tasks RCU enabled.
+Apr  3 20:04:40 retropie kernel: [    0.000000] rcu: RCU calculated value of scheduler-enlistment delay is 10 jiffies.
+Apr  3 20:04:40 retropie systemd[1]: Condition check resulted in Show Plymouth Boot Screen being skipped.
+Apr  3 20:04:40 retropie kernel: [    0.000000] NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16
+Apr  3 20:04:40 retropie kernel: [    0.000000] GIC: Using split EOI/Deactivate mode
+Apr  3 20:04:40 retropie kernel: [    0.000000] random: get_random_bytes called from start_kernel+0x3c8/0x59c with crng_init=1
+Apr  3 20:04:40 retropie kernel: [    0.000002] sched_clock: 32 bits at 1000kHz, resolution 1000ns, wraps every 2147483647500ns
+Apr  3 20:04:40 retropie systemd[1]: Condition check resulted in Forward Password Requests to Plymouth Directory Watch being skipped.
+Apr  3 20:04:40 retropie kernel: [    0.000009] clocksource: timer: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275 ns
+Apr  3 20:04:40 retropie kernel: [    0.000032] bcm2835: system timer (irq = 25)
+Apr  3 20:04:40 retropie kernel: [    0.000228] arch_timer: cp15 timer(s) running at 54.00MHz (phys).
+Apr  3 20:04:40 retropie kernel: [    0.000234] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0xc743ce346, max_idle_ns: 440795203123 ns
+Apr  3 20:04:40 retropie systemd[1]: Starting File System Check on /dev/disk/by-partuuid/e22bcd10-01...
+Apr  3 20:04:40 retropie kernel: [    0.000239] sched_clock: 56 bits at 54MHz, resolution 18ns, wraps every 4398046511102ns
+Apr  3 20:04:40 retropie kernel: [    0.000244] Switching to timer-based delay loop, resolution 18ns
+Apr  3 20:04:40 retropie kernel: [    0.000340] Console: colour dummy device 80x30
+Apr  3 20:04:40 retropie kernel: [    0.000367] printk: console [tty1] enabled
+Apr  3 20:04:40 retropie kernel: [    0.000388] Calibrating delay loop (skipped), value calculated using timer frequency.. 108.00 BogoMIPS (lpj=540000)
+Apr  3 20:04:40 retropie systemd[1]: Starting Load/Save RF Kill Switch Status...
+Apr  3 20:04:40 retropie kernel: [    0.000398] pid_max: default: 32768 minimum: 301
+Apr  3 20:04:40 retropie kernel: [    0.000454] LSM: Security Framework initializing
+Apr  3 20:04:40 retropie kernel: [    0.000522] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes, linear)
+Apr  3 20:04:40 retropie systemd[1]: Started Load/Save RF Kill Switch Status.
+Apr  3 20:04:40 retropie kernel: [    0.000530] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes, linear)
+Apr  3 20:04:40 retropie kernel: [    0.001062] cgroup: Disabling memory control group subsystem
+Apr  3 20:04:40 retropie kernel: [    0.001151] CPU: Testing write buffer coherency: ok
+Apr  3 20:04:40 retropie kernel: [    0.001334] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+Apr  3 20:04:40 retropie kernel: [    0.001741] Setting up static identity map for 0x200000 - 0x20003c
+Apr  3 20:04:40 retropie kernel: [    0.001805] rcu: Hierarchical SRCU implementation.
+Apr  3 20:04:40 retropie systemd-fsck[322]: fsck.fat 4.1 (2017-01-24)
+Apr  3 20:04:40 retropie kernel: [    0.002131] smp: Bringing up secondary CPUs ...
+Apr  3 20:04:40 retropie kernel: [    0.002614] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+Apr  3 20:04:40 retropie kernel: [    0.003125] CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+Apr  3 20:04:40 retropie systemd-fsck[322]: /dev/mmcblk0p1: 303 files, 12499/65467 clusters
+Apr  3 20:04:40 retropie kernel: [    0.003611] CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+Apr  3 20:04:40 retropie kernel: [    0.003659] smp: Brought up 1 node, 4 CPUs
+Apr  3 20:04:40 retropie kernel: [    0.003666] SMP: Total of 4 processors activated (432.00 BogoMIPS).
+Apr  3 20:04:40 retropie kernel: [    0.003672] CPU: All CPU(s) started in HYP mode.
+Apr  3 20:04:40 retropie kernel: [    0.003676] CPU: Virtualization extensions available.
+Apr  3 20:04:40 retropie kernel: [    0.003999] devtmpfs: initialized
+Apr  3 20:04:40 retropie kernel: [    0.008680] VFP support v0.3: implementor 41 architecture 3 part 40 variant 8 rev 0
+Apr  3 20:04:40 retropie systemd[1]: Started File System Check on /dev/disk/by-partuuid/e22bcd10-01.
+Apr  3 20:04:40 retropie kernel: [    0.008761] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Apr  3 20:04:40 retropie kernel: [    0.008773] futex hash table entries: 1024 (order: 4, 65536 bytes, linear)
+Apr  3 20:04:40 retropie kernel: [    0.011933] pinctrl core: initialized pinctrl subsystem
+Apr  3 20:04:40 retropie kernel: [    0.012404] NET: Registered protocol family 16
+Apr  3 20:04:40 retropie kernel: [    0.014006] DMA: preallocated 1024 KiB pool for atomic coherent allocations
+Apr  3 20:04:40 retropie systemd[1]: Mounting /boot...
+Apr  3 20:04:40 retropie kernel: [    0.014264] audit: initializing netlink subsys (disabled)
+Apr  3 20:04:40 retropie kernel: [    0.014360] audit: type=2000 audit(0.010:1): state=initialized audit_enabled=0 res=1
+Apr  3 20:04:40 retropie kernel: [    0.014563] thermal_sys: Registered thermal governor 'step_wise'
+Apr  3 20:04:40 retropie kernel: [    0.014825] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+Apr  3 20:04:40 retropie systemd[1]: Mounted /boot.
+Apr  3 20:04:40 retropie kernel: [    0.014830] hw-breakpoint: maximum watchpoint size is 8 bytes.
+Apr  3 20:04:40 retropie kernel: [    0.015040] Serial: AMBA PL011 UART driver
+Apr  3 20:04:40 retropie systemd[1]: Reached target Local File Systems.
+Apr  3 20:04:40 retropie kernel: [    0.024958] bcm2835-mbox fe00b880.mailbox: mailbox enabled
+Apr  3 20:04:40 retropie kernel: [    0.040278] raspberrypi-firmware soc:firmware: Attached to firmware from 2021-12-01T15:01:54, variant start
+Apr  3 20:04:40 retropie kernel: [    0.050281] raspberrypi-firmware soc:firmware: Firmware hash is 71bd3109023a0c8575585ba87cbb374d2eeb038f
+Apr  3 20:04:40 retropie kernel: [    0.069572] Kprobes globally optimized
+Apr  3 20:04:40 retropie kernel: [    0.071449] bcm2835-dma fe007000.dma: DMA legacy API manager, dmachans=0x1
+Apr  3 20:04:40 retropie kernel: [    0.072812] vgaarb: loaded
+Apr  3 20:04:40 retropie systemd[1]: Starting Set console font and keymap...
+Apr  3 20:04:40 retropie kernel: [    0.072977] SCSI subsystem initialized
+Apr  3 20:04:40 retropie kernel: [    0.073052] usbcore: registered new interface driver usbfs
+Apr  3 20:04:40 retropie kernel: [    0.073072] usbcore: registered new interface driver hub
+Apr  3 20:04:40 retropie systemd[1]: Condition check resulted in Load AppArmor profiles being skipped.
+Apr  3 20:04:40 retropie kernel: [    0.073100] usbcore: registered new device driver usb
+Apr  3 20:04:40 retropie kernel: [    0.073214] usb_phy_generic phy: supply vcc not found, using dummy regulator
+Apr  3 20:04:40 retropie kernel: [    0.073937] clocksource: Switched to clocksource arch_sys_counter
+Apr  3 20:04:40 retropie kernel: [    0.361003] VFS: Disk quotas dquot_6.6.0
+Apr  3 20:04:40 retropie kernel: [    0.361039] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Apr  3 20:04:40 retropie systemd[1]: Starting Raise network interfaces...
+Apr  3 20:04:40 retropie kernel: [    0.361101] FS-Cache: Loaded
+Apr  3 20:04:40 retropie kernel: [    0.361207] CacheFiles: Loaded
+Apr  3 20:04:40 retropie kernel: [    0.361556] simple-framebuffer 3eace000.framebuffer: framebuffer at 0x3eace000, 0x12c000 bytes, mapped to 0x(ptrval)
+Apr  3 20:04:40 retropie systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Apr  3 20:04:40 retropie kernel: [    0.361563] simple-framebuffer 3eace000.framebuffer: format=a8r8g8b8, mode=640x480x32, linelength=2560
+Apr  3 20:04:40 retropie kernel: [    0.361707] Console: switching to colour frame buffer device 80x30
+Apr  3 20:04:40 retropie systemd[1]: Starting Create Volatile Files and Directories...
+Apr  3 20:04:40 retropie systemd[1]: Starting Preprocess NFS configuration...
+Apr  3 20:04:40 retropie systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Apr  3 20:04:40 retropie systemd[1]: Started Set console font and keymap.
+Apr  3 20:04:40 retropie systemd[1]: plymouth-read-write.service: Succeeded.
+Apr  3 20:04:40 retropie systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Apr  3 20:04:40 retropie systemd[1]: Starting Show custom splashscreen...
+Apr  3 20:04:40 retropie systemd[1]: nfs-config.service: Succeeded.
+Apr  3 20:04:40 retropie systemd[1]: Started Preprocess NFS configuration.
+Apr  3 20:04:40 retropie systemd[1]: Condition check resulted in RPC security service for NFS client and server being skipped.
+Apr  3 20:04:40 retropie systemd[1]: Condition check resulted in RPC security service for NFS server being skipped.
+Apr  3 20:04:40 retropie systemd[1]: Reached target NFS client services.
+Apr  3 20:04:40 retropie systemd[1]: Reached target Remote File Systems (Pre).
+Apr  3 20:04:40 retropie systemd[1]: Reached target Remote File Systems.
+Apr  3 20:04:40 retropie systemd[1]: Started Show custom splashscreen.
+Apr  3 20:04:40 retropie systemd[1]: Started Create Volatile Files and Directories.
+Apr  3 20:04:40 retropie systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Apr  3 20:04:40 retropie systemd[1]: Starting Network Time Synchronization...
+Apr  3 20:04:40 retropie systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Apr  3 20:04:40 retropie systemd[1]: Started Raise network interfaces.
+Apr  3 20:04:40 retropie systemd[1]: Started Network Time Synchronization.
+Apr  3 20:04:40 retropie systemd[1]: Reached target System Initialization.
+Apr  3 20:04:40 retropie systemd[1]: Listening on D-Bus System Message Bus Socket.
+Apr  3 20:04:40 retropie systemd[1]: Started CUPS Scheduler.
+Apr  3 20:04:40 retropie kernel: [    0.362286] simple-framebuffer 3eace000.framebuffer: fb0: simplefb registered!
+Apr  3 20:04:40 retropie systemd[1]: Reached target Paths.
+Apr  3 20:04:40 retropie kernel: [    0.365505] NET: Registered protocol family 2
+Apr  3 20:04:40 retropie kernel: [    0.365593] IP idents hash table entries: 8192 (order: 4, 65536 bytes, linear)
+Apr  3 20:04:40 retropie kernel: [    0.366024] tcp_listen_portaddr_hash hash table entries: 512 (order: 0, 6144 bytes, linear)
+Apr  3 20:04:40 retropie kernel: [    0.366038] TCP established hash table entries: 4096 (order: 2, 16384 bytes, linear)
+Apr  3 20:04:40 retropie systemd[1]: Started Daily Cleanup of Temporary Directories.
+Apr  3 20:04:40 retropie kernel: [    0.366052] TCP bind hash table entries: 4096 (order: 3, 32768 bytes, linear)
+Apr  3 20:04:40 retropie kernel: [    0.366070] TCP: Hash tables configured (established 4096 bind 4096)
+Apr  3 20:04:40 retropie kernel: [    0.366147] UDP hash table entries: 256 (order: 1, 8192 bytes, linear)
+Apr  3 20:04:40 retropie kernel: [    0.366160] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes, linear)
+Apr  3 20:04:40 retropie kernel: [    0.366240] NET: Registered protocol family 1
+Apr  3 20:04:40 retropie kernel: [    0.366510] RPC: Registered named UNIX socket transport module.
+Apr  3 20:04:40 retropie systemd[1]: Listening on triggerhappy.socket.
+Apr  3 20:04:40 retropie kernel: [    0.366515] RPC: Registered udp transport module.
+Apr  3 20:04:40 retropie kernel: [    0.366520] RPC: Registered tcp transport module.
+Apr  3 20:04:40 retropie systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Apr  3 20:04:40 retropie kernel: [    0.366525] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Apr  3 20:04:40 retropie kernel: [    0.366534] PCI: CLS 0 bytes, default 64
+Apr  3 20:04:40 retropie kernel: [    0.367753] Initialise system trusted keyrings
+Apr  3 20:04:40 retropie kernel: [    0.367846] workingset: timestamp_bits=14 max_order=21 bucket_order=7
+Apr  3 20:04:40 retropie kernel: [    0.370532] zbud: loaded
+Apr  3 20:04:40 retropie kernel: [    0.371119] FS-Cache: Netfs 'nfs' registered for caching
+Apr  3 20:04:40 retropie systemd[1]: Listening on CUPS Scheduler.
+Apr  3 20:04:40 retropie kernel: [    0.371383] NFS: Registering the id_resolver key type
+Apr  3 20:04:40 retropie kernel: [    0.371399] Key type id_resolver registered
+Apr  3 20:04:40 retropie systemd[1]: Reached target Sockets.
+Apr  3 20:04:40 retropie kernel: [    0.371404] Key type id_legacy registered
+Apr  3 20:04:40 retropie kernel: [    0.371453] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+Apr  3 20:04:40 retropie kernel: [    0.371459] nfs4flexfilelayout_init: NFSv4 Flexfile Layout Driver Registering...
+Apr  3 20:04:40 retropie kernel: [    0.371833] Key type asymmetric registered
+Apr  3 20:04:40 retropie systemd[1]: Reached target Basic System.
+Apr  3 20:04:40 retropie kernel: [    0.371839] Asymmetric key parser 'x509' registered
+Apr  3 20:04:40 retropie kernel: [    0.371900] bounce: pool size: 64 pages
+Apr  3 20:04:40 retropie systemd[1]: Condition check resulted in Copy user wpa_supplicant.conf being skipped.
+Apr  3 20:04:40 retropie kernel: [    0.371916] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 249)
+Apr  3 20:04:40 retropie kernel: [    0.372001] io scheduler mq-deadline registered
+Apr  3 20:04:40 retropie kernel: [    0.372006] io scheduler kyber registered
+Apr  3 20:04:40 retropie kernel: [    0.373567] brcm-pcie fd500000.pcie: host bridge /scb/pcie@7d500000 ranges:
+Apr  3 20:04:40 retropie kernel: [    0.373577] brcm-pcie fd500000.pcie:   No bus range found for /scb/pcie@7d500000, using [bus 00-ff]
+Apr  3 20:04:40 retropie systemd[1]: Starting dhcpcd on all interfaces...
+Apr  3 20:04:40 retropie kernel: [    0.373603] brcm-pcie fd500000.pcie:      MEM 0x0600000000..0x063fffffff -> 0x00c0000000
+Apr  3 20:04:40 retropie kernel: [    0.373630] brcm-pcie fd500000.pcie:   IB MEM 0x0000000000..0x00bfffffff -> 0x0400000000
+Apr  3 20:04:40 retropie kernel: [    0.435996] brcm-pcie fd500000.pcie: link up, 5.0 GT/s PCIe x1 (SSC)
+Apr  3 20:04:40 retropie kernel: [    0.436132] brcm-pcie fd500000.pcie: PCI host bridge to bus 0000:00
+Apr  3 20:04:40 retropie kernel: [    0.436139] pci_bus 0000:00: root bus resource [bus 00-ff]
+Apr  3 20:04:40 retropie systemd[1]: Starting rng-tools.service...
+Apr  3 20:04:40 retropie kernel: [    0.436145] pci_bus 0000:00: root bus resource [mem 0x600000000-0x63fffffff] (bus address [0xc0000000-0xffffffff])
+Apr  3 20:04:40 retropie kernel: [    0.436179] pci 0000:00:00.0: [14e4:2711] type 01 class 0x060400
+Apr  3 20:04:40 retropie kernel: [    0.436266] pci 0000:00:00.0: PME# supported from D0 D3hot
+Apr  3 20:04:40 retropie kernel: [    0.437354] PCI: bus0: Fast back to back transfers disabled
+Apr  3 20:04:40 retropie systemd[1]: Starting System Logging Service...
+Apr  3 20:04:40 retropie kernel: [    0.437494] pci 0000:01:00.0: [1106:3483] type 00 class 0x0c0330
+Apr  3 20:04:40 retropie kernel: [    0.437553] pci 0000:01:00.0: reg 0x10: [mem 0x00000000-0x00000fff 64bit]
+Apr  3 20:04:40 retropie systemd[1]: Started Regular background program processing daemon.
+Apr  3 20:04:40 retropie kernel: [    0.437786] pci 0000:01:00.0: PME# supported from D0 D3hot
+Apr  3 20:04:40 retropie kernel: [    0.438881] PCI: bus1: Fast back to back transfers disabled
+Apr  3 20:04:40 retropie kernel: [    0.438906] pci 0000:00:00.0: BAR 8: assigned [mem 0x600000000-0x6000fffff]
+Apr  3 20:04:40 retropie kernel: [    0.438914] pci 0000:01:00.0: BAR 0: assigned [mem 0x600000000-0x600000fff 64bit]
+Apr  3 20:04:40 retropie kernel: [    0.438969] pci 0000:00:00.0: PCI bridge to [bus 01]
+Apr  3 20:04:40 retropie systemd[1]: Started Connect Bluetooth.
+Apr  3 20:04:40 retropie kernel: [    0.438978] pci 0000:00:00.0:   bridge window [mem 0x600000000-0x6000fffff]
+Apr  3 20:04:40 retropie kernel: [    0.439115] pcieport 0000:00:00.0: enabling device (0140 -> 0142)
+Apr  3 20:04:40 retropie kernel: [    0.439199] pcieport 0000:00:00.0: PME: Signaling with IRQ 63
+Apr  3 20:04:40 retropie kernel: [    0.442115] iproc-rng200 fe104000.rng: hwrng registered
+Apr  3 20:04:40 retropie systemd[1]: Started CUPS Scheduler.
+Apr  3 20:04:40 retropie kernel: [    0.442209] vc-mem: phys_addr:0x00000000 mem_base=0x3ec00000 mem_size:0x40000000(1024 MiB)
+Apr  3 20:04:40 retropie kernel: [    0.442487] gpiomem-bcm2835 fe200000.gpiomem: Initialised: Registers at 0xfe200000
+Apr  3 20:04:40 retropie kernel: [    0.446602] brd: module loaded
+Apr  3 20:04:40 retropie systemd[1]: Started D-Bus System Message Bus.
+Apr  3 20:04:40 retropie kernel: [    0.451091] loop: module loaded
+Apr  3 20:04:40 retropie kernel: [    0.451749] Loading iSCSI transport class v2.0-870.
+Apr  3 20:04:40 retropie kernel: [    0.453424] bcmgenet fd580000.ethernet: GENET 5.0 EPHY: 0x0000
+Apr  3 20:04:40 retropie kernel: [    0.543998] unimac-mdio unimac-mdio.-19: Broadcom UniMAC MDIO bus
+Apr  3 20:04:40 retropie kernel: [    0.544430] usbcore: registered new interface driver r8152
+Apr  3 20:04:40 retropie systemd[1]: Starting LSB: Switch to ondemand cpu governor (unless shift key is pressed)...
+Apr  3 20:04:40 retropie kernel: [    0.544455] usbcore: registered new interface driver lan78xx
+Apr  3 20:04:40 retropie kernel: [    0.544480] usbcore: registered new interface driver smsc95xx
+Apr  3 20:04:40 retropie kernel: [    0.590640] xhci_hcd 0000:01:00.0: xHCI Host Controller
+Apr  3 20:04:40 retropie kernel: [    0.590657] xhci_hcd 0000:01:00.0: new USB bus registered, assigned bus number 1
+Apr  3 20:04:40 retropie kernel: [    0.591906] xhci_hcd 0000:01:00.0: hcc params 0x002841eb hci version 0x100 quirks 0x0000060000000890
+Apr  3 20:04:40 retropie systemd[1]: Starting triggerhappy global hotkey daemon...
+Apr  3 20:04:40 retropie kernel: [    0.592424] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.10
+Apr  3 20:04:40 retropie kernel: [    0.592431] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Apr  3 20:04:40 retropie kernel: [    0.592436] usb usb1: Product: xHCI Host Controller
+Apr  3 20:04:40 retropie kernel: [    0.592441] usb usb1: Manufacturer: Linux 5.10.103-v7l+ xhci-hcd
+Apr  3 20:04:40 retropie kernel: [    0.592446] usb usb1: SerialNumber: 0000:01:00.0
+Apr  3 20:04:40 retropie kernel: [    0.592705] hub 1-0:1.0: USB hub found
+Apr  3 20:04:40 retropie rng-tools[410]: Starting Hardware RNG entropy gatherer daemon: rngd.
+Apr  3 20:04:40 retropie kernel: [    0.592756] hub 1-0:1.0: 1 port detected
+Apr  3 20:04:40 retropie kernel: [    0.593022] xhci_hcd 0000:01:00.0: xHCI Host Controller
+Apr  3 20:04:40 retropie kernel: [    0.593031] xhci_hcd 0000:01:00.0: new USB bus registered, assigned bus number 2
+Apr  3 20:04:40 retropie kernel: [    0.593040] xhci_hcd 0000:01:00.0: Host supports USB 3.0 SuperSpeed
+Apr  3 20:04:40 retropie kernel: [    0.593221] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.10
+Apr  3 20:04:40 retropie systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Apr  3 20:04:40 retropie kernel: [    0.593226] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Apr  3 20:04:40 retropie kernel: [    0.593232] usb usb2: Product: xHCI Host Controller
+Apr  3 20:04:40 retropie kernel: [    0.593237] usb usb2: Manufacturer: Linux 5.10.103-v7l+ xhci-hcd
+Apr  3 20:04:40 retropie kernel: [    0.593242] usb usb2: SerialNumber: 0000:01:00.0
+Apr  3 20:04:40 retropie kernel: [    0.593467] hub 2-0:1.0: USB hub found
+Apr  3 20:04:40 retropie rngd[420]: rngd 2-unofficial-mt.14 starting up...
+Apr  3 20:04:40 retropie kernel: [    0.593492] hub 2-0:1.0: 4 ports detected
+Apr  3 20:04:40 retropie kernel: [    0.594062] dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+Apr  3 20:04:40 retropie kernel: [    0.594162] dwc_otg: FIQ enabled
+Apr  3 20:04:40 retropie cron[413]: (CRON) INFO (pidfile fd = 3)
+Apr  3 20:04:40 retropie kernel: [    0.594167] dwc_otg: NAK holdoff enabled
+Apr  3 20:04:40 retropie kernel: [    0.594171] dwc_otg: FIQ split-transaction FSM enabled
+Apr  3 20:04:40 retropie kernel: [    0.594178] Module dwc_common_port init
+Apr  3 20:04:40 retropie kernel: [    0.594332] usbcore: registered new interface driver uas
+Apr  3 20:04:40 retropie kernel: [    0.594372] usbcore: registered new interface driver usb-storage
+Apr  3 20:04:40 retropie kernel: [    0.594445] mousedev: PS/2 mouse device common for all mice
+Apr  3 20:04:40 retropie systemd[1]: Starting Configure Bluetooth Modems connected by UART...
+Apr  3 20:04:40 retropie kernel: [    0.595008] bcm2835-wdt bcm2835-wdt: Broadcom BCM2835 watchdog timer
+Apr  3 20:04:40 retropie kernel: [    0.596355] sdhci: Secure Digital Host Controller Interface driver
+Apr  3 20:04:40 retropie kernel: [    0.596360] sdhci: Copyright(c) Pierre Ossman
+Apr  3 20:04:40 retropie systemd[1]: Starting WPA supplicant...
+Apr  3 20:04:40 retropie kernel: [    0.596604] mmc-bcm2835 fe300000.mmcnr: could not get clk, deferring probe
+Apr  3 20:04:40 retropie kernel: [    0.596797] sdhci-pltfm: SDHCI platform and OF driver helper
+Apr  3 20:04:40 retropie kernel: [    0.598945] ledtrig-cpu: registered to indicate activity on CPUs
+Apr  3 20:04:40 retropie kernel: [    0.599023] hid: raw HID events driver (C) Jiri Kosina
+Apr  3 20:04:40 retropie kernel: [    0.599085] usbcore: registered new interface driver usbhid
+Apr  3 20:04:40 retropie dhcpcd[409]: dev: loaded udev
+Apr  3 20:04:40 retropie kernel: [    0.599090] usbhid: USB HID core driver
+Apr  3 20:04:40 retropie kernel: [    0.601564] Initializing XFRM netlink socket
+Apr  3 20:04:40 retropie kernel: [    0.601580] NET: Registered protocol family 17
+Apr  3 20:04:40 retropie systemd[1]: Condition check resulted in Turn on SSH if /boot/ssh is present being skipped.
+Apr  3 20:04:40 retropie kernel: [    0.601634] Key type dns_resolver registered
+Apr  3 20:04:40 retropie kernel: [    0.601790] Registering SWP/SWPB emulation handler
+Apr  3 20:04:40 retropie kernel: [    0.601863] registered taskstats version 1
+Apr  3 20:04:40 retropie kernel: [    0.601875] Loading compiled-in X.509 certificates
+Apr  3 20:04:40 retropie kernel: [    0.602185] Key type ._fscrypt registered
+Apr  3 20:04:40 retropie kernel: [    0.602190] Key type .fscrypt registered
+Apr  3 20:04:40 retropie kernel: [    0.602195] Key type fscrypt-provisioning registered
+Apr  3 20:04:40 retropie systemd[1]: Starting dphys-swapfile - set up, mount/unmount, and delete a swap file...
+Apr  3 20:04:40 retropie kernel: [    0.606145] uart-pl011 fe201000.serial: there is not valid maps for state default
+Apr  3 20:04:40 retropie kernel: [    0.606252] uart-pl011 fe201000.serial: cts_event_workaround enabled
+Apr  3 20:04:40 retropie kernel: [    0.606288] fe201000.serial: ttyAMA0 at MMIO 0xfe201000 (irq = 36, base_baud = 0) is a PL011 rev2
+Apr  3 20:04:40 retropie systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Apr  3 20:04:40 retropie kernel: [    0.610544] bcm2835-power bcm2835-power: Broadcom BCM2835 power domains driver
+Apr  3 20:04:40 retropie kernel: [    0.610897] mmc-bcm2835 fe300000.mmcnr: mmc_debug:0 mmc_debug2:0
+Apr  3 20:04:40 retropie kernel: [    0.610902] mmc-bcm2835 fe300000.mmcnr: DMA channel allocated
+Apr  3 20:04:40 retropie kernel: [    0.636936] of_cfs_init
+Apr  3 20:04:40 retropie kernel: [    0.637037] of_cfs_init: OK
+Apr  3 20:04:40 retropie kernel: [    0.655008] mmc1: queuing unknown CIS tuple 0x80 (2 bytes)
+Apr  3 20:04:40 retropie rngd[420]: entropy feed to the kernel ready
+Apr  3 20:04:40 retropie kernel: [    0.656530] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+Apr  3 20:04:40 retropie kernel: [    0.658050] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+Apr  3 20:04:40 retropie kernel: [    0.660782] mmc1: queuing unknown CIS tuple 0x80 (7 bytes)
+Apr  3 20:04:40 retropie systemd[1]: Starting Check for Raspberry Pi EEPROM updates...
+Apr  3 20:04:40 retropie systemd[1]: Starting Login Service...
+Apr  3 20:04:40 retropie cron[413]: (CRON) INFO (Running @reboot jobs)
+Apr  3 20:04:40 retropie systemd[1]: Started Manage Sound Card State (restore and store).
+Apr  3 20:04:40 retropie thd[419]: Found socket passed from systemd
+Apr  3 20:04:40 retropie rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.1901.0]
+Apr  3 20:04:40 retropie rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="411" x-info="https://www.rsyslog.com"] start
+Apr  3 20:04:40 retropie systemd[1]: Starting Save/Restore Sound Card State...
+Apr  3 20:04:40 retropie kernel: [    0.662301] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+Apr  3 20:04:40 retropie kernel: [    0.672244] mmc0: SDHCI controller on fe340000.mmc [fe340000.mmc] using ADMA
+Apr  3 20:04:40 retropie kernel: [    0.672500] Waiting for root device PARTUUID=e22bcd10-02...
+Apr  3 20:04:40 retropie kernel: [    0.722506] mmc1: new high speed SDIO card at address 0001
+Apr  3 20:04:40 retropie kernel: [    0.776070] mmc0: new ultra high speed DDR50 SDXC card at address aaaa
+Apr  3 20:04:40 retropie kernel: [    0.776456] mmcblk0: mmc0:aaaa SD128 119 GiB
+Apr  3 20:04:40 retropie kernel: [    0.777627]  mmcblk0: p1 p2
+Apr  3 20:04:40 retropie kernel: [    0.794977] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+Apr  3 20:04:40 retropie kernel: [    0.795014] VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+Apr  3 20:04:40 retropie kernel: [    0.795574] devtmpfs: mounted
+Apr  3 20:04:40 retropie kernel: [    0.799053] Freeing unused kernel memory: 2048K
+Apr  3 20:04:40 retropie kernel: [    0.844034] Run /sbin/init as init process
+Apr  3 20:04:40 retropie kernel: [    0.844038]   with arguments:
+Apr  3 20:04:40 retropie kernel: [    0.844043]     /sbin/init
+Apr  3 20:04:40 retropie kernel: [    0.844047]   with environment:
+Apr  3 20:04:40 retropie kernel: [    0.844052]     HOME=/
+Apr  3 20:04:40 retropie kernel: [    0.844056]     TERM=linux
+Apr  3 20:04:40 retropie kernel: [    0.873962] usb 1-1: new high-speed USB device number 2 using xhci_hcd
+Apr  3 20:04:40 retropie kernel: [    1.056555] usb 1-1: New USB device found, idVendor=2109, idProduct=3431, bcdDevice= 4.21
+Apr  3 20:04:40 retropie kernel: [    1.056563] usb 1-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+Apr  3 20:04:40 retropie kernel: [    1.056569] usb 1-1: Product: USB2.0 Hub
+Apr  3 20:04:40 retropie kernel: [    1.057834] hub 1-1:1.0: USB hub found
+Apr  3 20:04:40 retropie kernel: [    1.058144] hub 1-1:1.0: 4 ports detected
+Apr  3 20:04:40 retropie kernel: [    1.247120] NET: Registered protocol family 10
+Apr  3 20:04:40 retropie kernel: [    1.247673] Segment Routing with IPv6
+Apr  3 20:04:40 retropie kernel: [    1.780951] random: systemd: uninitialized urandom read (16 bytes read)
+Apr  3 20:04:40 retropie kernel: [    1.802652] random: systemd: uninitialized urandom read (16 bytes read)
+Apr  3 20:04:40 retropie kernel: [    1.803147] random: systemd: uninitialized urandom read (16 bytes read)
+Apr  3 20:04:40 retropie kernel: [    1.899097] xpi_gamecon: loading out-of-tree module taints kernel.
+Apr  3 20:04:40 retropie kernel: [    1.922531] Executing OSD: 0
+Apr  3 20:04:40 retropie kernel: [    1.922552] peripherals address base at 0xfe000000
+Apr  3 20:04:40 retropie systemd[1]: Reached target System Time Synchronized.
+Apr  3 20:04:40 retropie kernel: [    1.922680] input: PiBoy DMG Controller as /devices/virtual/input/input0
+Apr  3 20:04:40 retropie kernel: [    1.922789] GPIO26 and GPIO27 configured for Piboy DMG controller pins
+Apr  3 20:04:40 retropie kernel: [    1.922794] PiBoy DMG Controls module loaded
+Apr  3 20:04:40 retropie kernel: [    1.922825] Device Driver Insert...Done!!!
+Apr  3 20:04:40 retropie kernel: [    7.228603] ------------[ cut here ]------------
+Apr  3 20:04:40 retropie kernel: [    7.228620] WARNING: CPU: 2 PID: 139 at drivers/firmware/raspberrypi.c:233 get_throttled_show+0x6c/0x70
+Apr  3 20:04:40 retropie kernel: [    7.228625] deprecated, use hwmon sysfs instead
+Apr  3 20:04:40 retropie kernel: [    7.228629] Modules linked in: binfmt_misc xpi_gamecon(O) uinput ip_tables x_tables ipv6
+Apr  3 20:04:40 retropie kernel: [    7.228669] CPU: 2 PID: 139 Comm: osd Tainted: G           O      5.10.103-v7l+ #1529
+Apr  3 20:04:40 retropie kernel: [    7.228672] Hardware name: BCM2711
+Apr  3 20:04:40 retropie kernel: [    7.228676] Backtrace: 
+Apr  3 20:04:40 retropie kernel: [    7.228686] [<c0b875f0>] (dump_backtrace) from [<c0b87984>] (show_stack+0x20/0x24)
+Apr  3 20:04:40 retropie kernel: [    7.228691]  r7:ffffffff r6:00000000 r5:60000013 r4:c12e6fd8
+Apr  3 20:04:40 retropie kernel: [    7.228697] [<c0b87964>] (show_stack) from [<c0b8bd74>] (dump_stack+0xcc/0xf8)
+Apr  3 20:04:40 retropie kernel: [    7.228704] [<c0b8bca8>] (dump_stack) from [<c0220c8c>] (__warn+0xfc/0x114)
+Apr  3 20:04:40 retropie kernel: [    7.228709]  r10:c35ffef8 r9:00000009 r8:c09bfac4 r7:000000e9 r6:00000009 r5:c09bfac4
+Apr  3 20:04:40 retropie kernel: [    7.228712]  r4:c0ea26a8 r3:c1205094
+Apr  3 20:04:40 retropie kernel: [    7.228717] [<c0220b90>] (__warn) from [<c0b88128>] (warn_slowpath_fmt+0xa4/0xd8)
+Apr  3 20:04:40 retropie kernel: [    7.228721]  r7:000000e9 r6:c0ea26a8 r5:c1205048 r4:c0ea2680
+Apr  3 20:04:40 retropie kernel: [    7.228726] [<c0b88088>] (warn_slowpath_fmt) from [<c09bfac4>] (get_throttled_show+0x6c/0x70)
+Apr  3 20:04:40 retropie kernel: [    7.228731]  r9:c1a67d80 r8:c1a86410 r7:c2c5f000 r6:c0c4da2c r5:c1a9c340 r4:c2c5f000
+Apr  3 20:04:40 retropie kernel: [    7.228736] [<c09bfa58>] (get_throttled_show) from [<c084a944>] (dev_attr_show+0x28/0x54)
+Apr  3 20:04:40 retropie kernel: [    7.228739]  r5:c131fa70 r4:c2c4e230
+Apr  3 20:04:40 retropie kernel: [    7.228746] [<c084a91c>] (dev_attr_show) from [<c04f89fc>] (sysfs_kf_seq_show+0x98/0x100)
+Apr  3 20:04:40 retropie kernel: [    7.228749]  r5:00001000 r4:c2c4e230
+Apr  3 20:04:40 retropie kernel: [    7.228754] [<c04f8964>] (sysfs_kf_seq_show) from [<c04f6a74>] (kernfs_seq_show+0x34/0x38)
+Apr  3 20:04:40 retropie kernel: [    7.228759]  r9:00000001 r8:00000000 r7:00400cc0 r6:7ffff000 r5:00001000 r4:c2c4e230
+Apr  3 20:04:40 retropie kernel: [    7.228765] [<c04f6a40>] (kernfs_seq_show) from [<c046cef8>] (seq_read_iter+0x1a0/0x4ec)
+Apr  3 20:04:40 retropie kernel: [    7.228770] [<c046cd58>] (seq_read_iter) from [<c04f70f0>] (kernfs_fop_read_iter+0x140/0x188)
+Apr  3 20:04:40 retropie kernel: [    7.228775]  r10:c35ffee0 r9:00000000 r8:00000000 r7:c35ffef8 r6:00001000 r5:c36c2e40
+Apr  3 20:04:40 retropie kernel: [    7.228778]  r4:c1a67d80
+Apr  3 20:04:40 retropie kernel: [    7.228783] [<c04f6fb0>] (kernfs_fop_read_iter) from [<c043fc6c>] (vfs_read+0x218/0x344)
+Apr  3 20:04:40 retropie kernel: [    7.228788]  r10:c35fff58 r9:00000000 r8:00000000 r7:c1205048 r6:00001000 r5:c36c2e40
+Apr  3 20:04:40 retropie kernel: [    7.228791]  r4:00000000
+Apr  3 20:04:40 retropie kernel: [    7.228795] [<c043fa54>] (vfs_read) from [<c0440264>] (ksys_read+0x68/0xe0)
+Apr  3 20:04:40 retropie kernel: [    7.228799]  r10:00001000 r9:01df31a8 r8:c36c2e40 r7:00000000 r6:00000000 r5:c36c2e43
+Apr  3 20:04:40 retropie kernel: [    7.228803]  r4:c1205048
+Apr  3 20:04:40 retropie kernel: [    7.228807] [<c04401fc>] (ksys_read) from [<c04402f4>] (sys_read+0x18/0x1c)
+Apr  3 20:04:40 retropie kernel: [    7.228811]  r10:00000003 r9:c35fe000 r8:c0200204 r7:00000003 r6:0000000b r5:01df31a8
+Apr  3 20:04:40 retropie kernel: [    7.228814]  r4:00001000
+Apr  3 20:04:40 retropie kernel: [    7.228819] [<c04402dc>] (sys_read) from [<c0200040>] (ret_fast_syscall+0x0/0x28)
+Apr  3 20:04:40 retropie kernel: [    7.228823] Exception stack(0xc35fffa8 to 0xc35ffff0)
+Apr  3 20:04:40 retropie kernel: [    7.228827] ffa0:                   00001000 01df31a8 0000000b 01df31a8 00001000 00000000
+Apr  3 20:04:40 retropie kernel: [    7.228831] ffc0: 00001000 01df31a8 0000000b 00000003 000005e8 be8b4958 00000000 01df31a8
+Apr  3 20:04:40 retropie kernel: [    7.228835] ffe0: 00000002 be8b4840 00000000 b6d038ac
+Apr  3 20:04:40 retropie kernel: [    7.228839] ---[ end trace d498b23b872aa184 ]---
+Apr  3 20:04:40 retropie kernel: [   10.092237] random: crng init done
+Apr  3 20:04:40 retropie kernel: [   10.092244] random: 7 urandom warning(s) missed due to ratelimiting
+Apr  3 20:04:40 retropie kernel: [   71.146123] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null)
+Apr  3 20:04:40 retropie kernel: [   72.046548] rpivid-mem feb00000.hevc-decoder: rpivid-hevcmem initialised: Registers at 0xfeb00000 length 0x00010000
+Apr  3 20:04:40 retropie kernel: [   72.050411] rpivid-mem feb10000.rpivid-local-intc: rpivid-intcmem initialised: Registers at 0xfeb10000 length 0x00001000
+Apr  3 20:04:40 retropie kernel: [   72.052012] rpivid-mem feb20000.h264-decoder: rpivid-h264mem initialised: Registers at 0xfeb20000 length 0x00010000
+Apr  3 20:04:40 retropie kernel: [   72.055724] rpivid-mem feb30000.vp9-decoder: rpivid-vp9mem initialised: Registers at 0xfeb30000 length 0x00010000
+Apr  3 20:04:40 retropie kernel: [   72.120083] vc_sm_cma: module is from the staging directory, the quality is unknown, you have been warned.
+Apr  3 20:04:40 retropie kernel: [   72.122325] bcm2835_vc_sm_cma_probe: Videocore shared memory driver
+Apr  3 20:04:40 retropie kernel: [   72.122351] [vc_sm_connected_init]: start
+Apr  3 20:04:40 retropie kernel: [   72.129285] [vc_sm_connected_init]: installed successfully
+Apr  3 20:04:40 retropie kernel: [   72.133295] mc: Linux media interface: v0.10
+Apr  3 20:04:40 retropie kernel: [   72.166885] snd_bcm2835: module is from the staging directory, the quality is unknown, you have been warned.
+Apr  3 20:04:40 retropie kernel: [   72.196625] videodev: Linux video capture interface: v2.00
+Apr  3 20:04:40 retropie kernel: [   72.222020] bcm2835_audio bcm2835_audio: card created with 8 channels
+Apr  3 20:04:40 retropie kernel: [   72.235489] XPi Gamecon CRC Error: 7028 0001
+Apr  3 20:04:40 retropie kernel: [   72.239951] bcm2835_mmal_vchiq: module is from the staging directory, the quality is unknown, you have been warned.
+Apr  3 20:04:40 retropie kernel: [   72.247530] bcm2835_mmal_vchiq: module is from the staging directory, the quality is unknown, you have been warned.
+Apr  3 20:04:40 retropie kernel: [   72.249945] bcm2835_mmal_vchiq: module is from the staging directory, the quality is unknown, you have been warned.
+Apr  3 20:04:40 retropie kernel: [   72.255704] bcm2835_v4l2: module is from the staging directory, the quality is unknown, you have been warned.
+Apr  3 20:04:40 retropie kernel: [   72.257865] bcm2835_isp: module is from the staging directory, the quality is unknown, you have been warned.
+Apr  3 20:04:40 retropie kernel: [   72.265115] bcm2835_codec: module is from the staging directory, the quality is unknown, you have been warned.
+Apr  3 20:04:40 retropie kernel: [   72.276052] bcm2835-isp bcm2835-isp: Device node output[0] registered as /dev/video13
+Apr  3 20:04:40 retropie kernel: [   72.276618] bcm2835-isp bcm2835-isp: Device node capture[0] registered as /dev/video14
+Apr  3 20:04:40 retropie kernel: [   72.277071] bcm2835-isp bcm2835-isp: Device node capture[1] registered as /dev/video15
+Apr  3 20:04:40 retropie kernel: [   72.277491] bcm2835-isp bcm2835-isp: Device node stats[2] registered as /dev/video16
+Apr  3 20:04:40 retropie kernel: [   72.277522] bcm2835-isp bcm2835-isp: Register output node 0 with media controller
+Apr  3 20:04:40 retropie kernel: [   72.277548] bcm2835-isp bcm2835-isp: Register capture node 1 with media controller
+Apr  3 20:04:40 retropie kernel: [   72.277570] bcm2835-isp bcm2835-isp: Register capture node 2 with media controller
+Apr  3 20:04:40 retropie kernel: [   72.277593] bcm2835-isp bcm2835-isp: Register capture node 3 with media controller
+Apr  3 20:04:40 retropie kernel: [   72.277797] bcm2835-isp bcm2835-isp: Loaded V4L2 bcm2835-isp
+Apr  3 20:04:40 retropie kernel: [   72.294780] bcm2835-codec bcm2835-codec: Device registered as /dev/video10
+Apr  3 20:04:40 retropie kernel: [   72.294828] bcm2835-codec bcm2835-codec: Loaded V4L2 decode
+Apr  3 20:04:40 retropie kernel: [   72.316786] bcm2835-codec bcm2835-codec: Device registered as /dev/video11
+Apr  3 20:04:40 retropie kernel: [   72.316831] bcm2835-codec bcm2835-codec: Loaded V4L2 encode
+Apr  3 20:04:40 retropie kernel: [   72.325696] bcm2835-codec bcm2835-codec: Device registered as /dev/video12
+Apr  3 20:04:40 retropie kernel: [   72.325748] bcm2835-codec bcm2835-codec: Loaded V4L2 isp
+Apr  3 20:04:40 retropie kernel: [   72.336099] bcm2835-codec bcm2835-codec: Device registered as /dev/video18
+Apr  3 20:04:40 retropie kernel: [   72.336161] bcm2835-codec bcm2835-codec: Loaded V4L2 image_fx
+Apr  3 20:04:40 retropie kernel: [   72.603055] [drm] Initialized v3d 1.0.0 20180419 for fec00000.v3d on minor 0
+Apr  3 20:04:40 retropie kernel: [   72.605235] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Apr  3 20:04:40 retropie kernel: [   72.654116] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Apr  3 20:04:40 retropie kernel: [   72.712616] checking generic (3eace000 12c000) vs hw (0 ffffffffffffffff)
+Apr  3 20:04:40 retropie kernel: [   72.712638] fb0: switching to vc4drmfb from simple
+Apr  3 20:04:40 retropie kernel: [   72.713210] Console: switching to colour dummy device 80x30
+Apr  3 20:04:40 retropie kernel: [   72.717101] vc4-drm gpu: bound fe600000.firmwarekms (ops vc4_fkms_ops [vc4])
+Apr  3 20:04:40 retropie kernel: [   72.738090] [drm] Initialized vc4 0.0.0 20140616 for gpu on minor 1
+Apr  3 20:04:40 retropie kernel: [   72.751971] Console: switching to colour frame buffer device 80x30
+Apr  3 20:04:40 retropie kernel: [   72.756288] brcmfmac: F1 signature read @0x18000000=0x15264345
+Apr  3 20:04:40 retropie kernel: [   72.767948] vc4-drm gpu: [drm] fb0: vc4drmfb frame buffer device
+Apr  3 20:04:40 retropie kernel: [   72.813448] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43455-sdio for chip BCM4345/6
+Apr  3 20:04:40 retropie kernel: [   72.817848] usbcore: registered new interface driver brcmfmac
+Apr  3 20:04:40 retropie kernel: [   73.111253] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43455-sdio for chip BCM4345/6
+Apr  3 20:04:40 retropie kernel: [   73.111371] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43455-sdio for chip BCM4345/6
+Apr  3 20:04:40 retropie kernel: [   73.127513] brcmfmac: brcmf_c_preinit_dcmds: Firmware: BCM4345/6 wl0: Jan  4 2021 19:56:29 version 7.45.229 (617f1f5 CY) FWID 01-2dbd9d2e
+Apr  3 20:04:40 retropie avahi-daemon[421]: Found user 'avahi' (UID 108) and group 'avahi' (GID 113).
+Apr  3 20:04:40 retropie avahi-daemon[421]: Successfully dropped root privileges.
+Apr  3 20:04:40 retropie avahi-daemon[421]: avahi-daemon 0.7 starting up.
+Apr  3 20:04:40 retropie systemd[1]: Started Daily apt download activities.
+Apr  3 20:04:40 retropie systemd[1]: Started Daily apt upgrade and clean activities.
+Apr  3 20:04:40 retropie systemd[1]: Started Daily man-db regeneration.
+Apr  3 20:04:40 retropie systemd[1]: Started Daily rotation of log files.
+Apr  3 20:04:40 retropie systemd[1]: Reached target Timers.
+Apr  3 20:04:40 retropie alsactl[443]: alsactl 1.1.8 daemon started
+Apr  3 20:04:40 retropie systemd[1]: Started triggerhappy global hotkey daemon.
+Apr  3 20:04:40 retropie systemd[1]: Started System Logging Service.
+Apr  3 20:04:40 retropie systemd[1]: Started rng-tools.service.
+Apr  3 20:04:40 retropie kernel: [   74.853853] uart-pl011 fe201000.serial: no DMA platform data
+Apr  3 20:04:40 retropie kernel: [   74.876099] 8021q: 802.1Q VLAN Support v1.8
+Apr  3 20:04:40 retropie dhcpcd[409]: forked to background, child pid 472
+Apr  3 20:04:41 retropie systemd[1]: Started dhcpcd on all interfaces.
+Apr  3 20:04:41 retropie dphys-swapfile[429]: want /var/swap=100MByte, restricting to 50% of remaining disk size: 58MBytes, checking existing: keeping it
+Apr  3 20:04:41 retropie avahi-daemon[421]: Successfully called chroot().
+Apr  3 20:04:41 retropie avahi-daemon[421]: Successfully dropped remaining capabilities.
+Apr  3 20:04:41 retropie wpa_supplicant[426]: Successfully initialized wpa_supplicant
+Apr  3 20:04:41 retropie avahi-daemon[421]: No service file found in /etc/avahi/services.
+Apr  3 20:04:41 retropie avahi-daemon[421]: Network interface enumeration completed.
+Apr  3 20:04:41 retropie dbus-daemon[417]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.5' (uid=0 pid=471 comm="bt-device --list ")
+Apr  3 20:04:41 retropie avahi-daemon[421]: Server startup complete. Host name is retropie.local. Local service cookie is 3619681681.
+Apr  3 20:04:41 retropie avahi-daemon[421]: Failed to parse address 'fe80::7edb:98ff:fe65:82e9%wlan0', ignoring.
+Apr  3 20:04:41 retropie systemd[1]: Started Login Service.
+Apr  3 20:04:41 retropie systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Apr  3 20:04:41 retropie systemd[1]: Started WPA supplicant.
+Apr  3 20:04:41 retropie systemd[1]: Condition check resulted in Bluetooth service being skipped.
+Apr  3 20:04:41 retropie systemd[1]: Reached target Network.
+Apr  3 20:04:41 retropie systemd[1]: Condition check resulted in fast remote file copy program daemon being skipped.
+Apr  3 20:04:41 retropie systemd[1]: Reached target Network is Online.
+Apr  3 20:04:41 retropie systemd[1]: Starting Samba NMB Daemon...
+Apr  3 20:04:41 retropie dhcpcd-run-hooks[530]: wlan0: starting wpa_supplicant
+Apr  3 20:04:41 retropie systemd[1]: Starting OpenBSD Secure Shell server...
+Apr  3 20:04:41 retropie systemd[1]: Starting /etc/rc.local Compatibility...
+Apr  3 20:04:41 retropie kernel: [   75.316782] Adding 59388k swap on /var/swap.  Priority:-2 extents:16 across:47572896k SSFS
+Apr  3 20:04:41 retropie systemd[1]: Starting Permit User Sessions...
+Apr  3 20:04:41 retropie systemd[1]: Started Make remote CUPS printers available locally.
+Apr  3 20:04:41 retropie systemd[1]: Started Save/Restore Sound Card State.
+Apr  3 20:04:41 retropie systemd[1]: Started dphys-swapfile - set up, mount/unmount, and delete a swap file.
+Apr  3 20:04:41 retropie systemd[1]: Reached target Sound Card.
+Apr  3 20:04:41 retropie systemd[1]: Started Permit User Sessions.
+Apr  3 20:04:41 retropie rpi-eeprom-update[432]: Skipping automatic bootloader upgrade. current 1599135103 >= min 1599135103
+Apr  3 20:04:41 retropie kernel: [   75.628132] brcmfmac: brcmf_cfg80211_set_power_mgmt: power save enabled
+Apr  3 20:04:41 retropie systemd[1]: Started OpenBSD Secure Shell server.
+Apr  3 20:04:41 retropie rpi-eeprom-update[432]: BOOTLOADER: up to date
+Apr  3 20:04:41 retropie rpi-eeprom-update[432]:    CURRENT: Thu 03 Sep 2020 12:11:43 PM UTC (1599135103)
+Apr  3 20:04:41 retropie rpi-eeprom-update[432]:     LATEST: Tue 25 Jan 2022 02:30:41 PM UTC (1643121041)
+Apr  3 20:04:41 retropie rpi-eeprom-update[432]:    RELEASE: default (/lib/firmware/raspberrypi/bootloader/default)
+Apr  3 20:04:41 retropie rpi-eeprom-update[432]:             Use raspi-config to change the release.
+Apr  3 20:04:41 retropie rpi-eeprom-update[432]:   VL805_FW: Using bootloader EEPROM
+Apr  3 20:04:41 retropie rpi-eeprom-update[432]:      VL805: up to date
+Apr  3 20:04:41 retropie rpi-eeprom-update[432]:    CURRENT: 000138a1
+Apr  3 20:04:41 retropie rpi-eeprom-update[432]:     LATEST: 000138a1
+Apr  3 20:04:41 retropie systemd[1]: Started Check for Raspberry Pi EEPROM updates.
+Apr  3 20:04:42 retropie dhcpcd[472]: wlan0: connected to Access Point `'
+Apr  3 20:04:42 retropie raspi-config[418]: Checking if shift key is held down: No. Switching to ondemand scaling governor.
+Apr  3 20:04:42 retropie systemd[1]: Started LSB: Switch to ondemand cpu governor (unless shift key is pressed).
+Apr  3 20:04:42 retropie dhcpcd[472]: eth0: waiting for carrier
+Apr  3 20:04:42 retropie dhcpcd[472]: wlan0: waiting for carrier
+Apr  3 20:04:42 retropie kernel: [   76.092427] bcmgenet fd580000.ethernet: configuring instance for external RGMII (RX delay)
+Apr  3 20:04:42 retropie kernel: [   76.092689] bcmgenet fd580000.ethernet eth0: Link is Down
+Apr  3 20:04:42 retropie rfkill: unblock set for type wifi
+Apr  3 20:04:42 retropie rfkill: unblock set for type bluetooth
+Apr  3 20:04:44 retropie systemd[1]: systemd-rfkill.service: Succeeded.
+Apr  3 20:04:45 retropie systemd[1]: Started /etc/rc.local Compatibility.
+Apr  3 20:04:45 retropie systemd[1]: Starting Hold until boot process finishes up...
+Apr  3 20:04:45 retropie systemd[1]: Starting Terminate Plymouth Boot Screen...
+Apr  3 20:04:45 retropie systemd[1]: plymouth-quit-wait.service: Succeeded.
+Apr  3 20:04:45 retropie systemd[1]: Started Hold until boot process finishes up.
+Apr  3 20:04:45 retropie systemd[1]: Started Getty on tty1.
+Apr  3 20:04:45 retropie systemd[1]: Reached target Login Prompts.
+Apr  3 20:04:45 retropie systemd[1]: plymouth-quit.service: Succeeded.
+Apr  3 20:04:45 retropie systemd[1]: Started Terminate Plymouth Boot Screen.
+Apr  3 20:04:47 retropie dhcpcd[472]: wlan0: carrier acquired
+Apr  3 20:04:47 retropie dhcpcd[472]: wlan0: connected to Access Point `MySpectrumWiFiE8-5G'
+Apr  3 20:04:47 retropie kernel: [   81.331260] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Apr  3 20:04:47 retropie dhcpcd[472]: DUID 00:01:00:01:25:d8:31:61:dc:a6:32:02:90:b0
+Apr  3 20:04:47 retropie dhcpcd[472]: wlan0: IAID 01:09:75:49
+Apr  3 20:04:47 retropie dhcpcd[472]: wlan0: adding address fe80::c2f1:e23b:ab93:dc33
+Apr  3 20:04:47 retropie avahi-daemon[421]: Joining mDNS multicast group on interface wlan0.IPv6 with address fe80::c2f1:e23b:ab93:dc33.
+Apr  3 20:04:47 retropie avahi-daemon[421]: New relevant interface wlan0.IPv6 for mDNS.
+Apr  3 20:04:47 retropie avahi-daemon[421]: Registering new address record for fe80::c2f1:e23b:ab93:dc33 on wlan0.*.
+Apr  3 20:04:47 retropie dhcpcd[472]: wlan0: rebinding lease of 192.168.1.4
+Apr  3 20:04:47 retropie dhcpcd[472]: wlan0: probing address 192.168.1.4/24
+Apr  3 20:04:47 retropie kernel: [   81.688084] Bluetooth: Core ver 2.22
+Apr  3 20:04:47 retropie kernel: [   81.688167] NET: Registered protocol family 31
+Apr  3 20:04:47 retropie kernel: [   81.688178] Bluetooth: HCI device and connection manager initialized
+Apr  3 20:04:47 retropie kernel: [   81.688201] Bluetooth: HCI socket layer initialized
+Apr  3 20:04:47 retropie kernel: [   81.688217] Bluetooth: L2CAP socket layer initialized
+Apr  3 20:04:47 retropie kernel: [   81.688242] Bluetooth: SCO socket layer initialized
+Apr  3 20:04:47 retropie btuart[425]: bcm43xx_init
+Apr  3 20:04:47 retropie kernel: [   81.698106] Bluetooth: HCI UART driver ver 2.3
+Apr  3 20:04:47 retropie kernel: [   81.698124] Bluetooth: HCI UART protocol H4 registered
+Apr  3 20:04:47 retropie kernel: [   81.698208] Bluetooth: HCI UART protocol Three-wire (H5) registered
+Apr  3 20:04:47 retropie kernel: [   81.698432] Bluetooth: HCI UART protocol Broadcom registered
+Apr  3 20:04:47 retropie btuart[425]: Flash firmware /lib/firmware/brcm/BCM4345C0.hcd
+Apr  3 20:04:47 retropie btuart[425]: Set Controller UART speed to 3000000 bit/s
+Apr  3 20:04:47 retropie btuart[425]: Device setup complete
+Apr  3 20:04:47 retropie systemd[1]: Starting Load/Save RF Kill Switch Status...
+Apr  3 20:04:47 retropie systemd[1]: Started Configure Bluetooth Modems connected by UART.
+Apr  3 20:04:47 retropie systemd[1]: Started Load/Save RF Kill Switch Status.
+Apr  3 20:04:47 retropie systemd[1]: Created slice system-bthelper.slice.
+Apr  3 20:04:47 retropie systemd[1]: Starting Raspberry Pi bluetooth helper...
+Apr  3 20:04:47 retropie bthelper[589]: Raspberry Pi BDADDR already set
+Apr  3 20:04:47 retropie systemd[1]: Started Raspberry Pi bluetooth helper.
+Apr  3 20:04:47 retropie systemd[1]: Starting Bluetooth service...
+Apr  3 20:04:47 retropie bluetoothd[599]: Bluetooth daemon 5.50
+Apr  3 20:04:47 retropie dbus-daemon[417]: [system] Successfully activated service 'org.bluez'
+Apr  3 20:04:47 retropie systemd[1]: Started Bluetooth service.
+Apr  3 20:04:47 retropie systemd[1]: Reached target Bluetooth.
+Apr  3 20:04:47 retropie bluetoothd[599]: Starting SDP server
+Apr  3 20:04:47 retropie bluetoothd[599]: Bluetooth management interface 1.18 initialized
+Apr  3 20:04:47 retropie dbus-daemon[417]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.9' (uid=0 pid=599 comm="/usr/lib/bluetooth/bluetoothd ")
+Apr  3 20:04:47 retropie bluetoothd[599]: Sap driver initialization failed.
+Apr  3 20:04:47 retropie bluetoothd[599]: sap-server: Operation not permitted (1)
+Apr  3 20:04:47 retropie kernel: [   81.897000] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+Apr  3 20:04:47 retropie kernel: [   81.897007] Bluetooth: BNEP filters: protocol multicast
+Apr  3 20:04:47 retropie kernel: [   81.897018] Bluetooth: BNEP socket layer initialized
+Apr  3 20:04:47 retropie systemd[1]: Starting Hostname Service...
+Apr  3 20:04:48 retropie dbus-daemon[417]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Apr  3 20:04:48 retropie systemd[1]: Started Hostname Service.
+Apr  3 20:04:48 retropie bluetoothd[599]: Failed to set privacy: Rejected (0x0b)
+Apr  3 20:04:48 retropie bt-device[603]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:04:48 retropie bt-device[603]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:04:48 retropie bt-device[603]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:04:48 retropie bt-device[603]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:04:48 retropie bt-device[603]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:04:48 retropie [603]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:04:48 retropie dhcpcd[472]: wlan0: soliciting an IPv6 router
+Apr  3 20:04:49 retropie dhcpcd[472]: wlan0: Router Advertisement from fe80::7edb:98ff:fe65:82e9
+Apr  3 20:04:49 retropie dhcpcd[472]: wlan0: adding address 2603:900a:1a0d:94e7:80d5:b445:189f:a3e7/64
+Apr  3 20:04:49 retropie avahi-daemon[421]: Leaving mDNS multicast group on interface wlan0.IPv6 with address fe80::c2f1:e23b:ab93:dc33.
+Apr  3 20:04:49 retropie avahi-daemon[421]: Joining mDNS multicast group on interface wlan0.IPv6 with address 2603:900a:1a0d:94e7:80d5:b445:189f:a3e7.
+Apr  3 20:04:49 retropie avahi-daemon[421]: Registering new address record for 2603:900a:1a0d:94e7:80d5:b445:189f:a3e7 on wlan0.*.
+Apr  3 20:04:49 retropie dhcpcd[472]: wlan0: adding route to 2603:900a:1a0d:94e7::/64
+Apr  3 20:04:49 retropie avahi-daemon[421]: Withdrawing address record for fe80::c2f1:e23b:ab93:dc33 on wlan0.
+Apr  3 20:04:49 retropie dhcpcd[472]: wlan0: confirming prior DHCPv6 lease
+Apr  3 20:04:49 retropie dhcpcd[472]: wlan0: fe80::7edb:98ff:fe65:82e9 is reachable again
+Apr  3 20:04:49 retropie dhcpcd[472]: wlan0: adding default route via fe80::7edb:98ff:fe65:82e9
+Apr  3 20:04:49 retropie kernel: [   82.918502] ICMPv6: process `dhcpcd' is using deprecated sysctl (syscall) net.ipv6.neigh.wlan0.retrans_time - use net.ipv6.neigh.wlan0.retrans_time_ms instead
+Apr  3 20:04:49 retropie dhcpcd[472]: wlan0: REPLY6 received from fe80::7edb:98ff:fe65:82e9
+Apr  3 20:04:49 retropie dhcpcd[472]: wlan0: adding address 2603:900a:1a0d:94e7::dfc/128
+Apr  3 20:04:49 retropie avahi-daemon[421]: Registering new address record for 2603:900a:1a0d:94e7::dfc on wlan0.*.
+Apr  3 20:04:49 retropie dhcpcd[472]: wlan0: renew in 172816, rebind in 354256, expire in 475216 seconds
+Apr  3 20:04:50 retropie systemd[1]: Created slice User Slice of UID 1000.
+Apr  3 20:04:50 retropie systemd[1]: Starting User Runtime Directory /run/user/1000...
+Apr  3 20:04:50 retropie systemd[1]: Started User Runtime Directory /run/user/1000.
+Apr  3 20:04:50 retropie systemd[1]: Starting User Manager for UID 1000...
+Apr  3 20:04:51 retropie systemd[616]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Apr  3 20:04:51 retropie systemd[616]: Listening on GnuPG network certificate management daemon.
+Apr  3 20:04:51 retropie systemd[616]: Reached target Timers.
+Apr  3 20:04:51 retropie systemd[616]: Listening on GnuPG cryptographic agent and passphrase cache.
+Apr  3 20:04:51 retropie systemd[616]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr  3 20:04:51 retropie systemd[616]: Starting D-Bus User Message Bus Socket.
+Apr  3 20:04:51 retropie systemd[616]: Reached target Paths.
+Apr  3 20:04:51 retropie systemd[616]: Listening on Sound System.
+Apr  3 20:04:51 retropie systemd[616]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Apr  3 20:04:51 retropie systemd[616]: Listening on D-Bus User Message Bus Socket.
+Apr  3 20:04:51 retropie systemd[616]: Reached target Sockets.
+Apr  3 20:04:51 retropie systemd[616]: Reached target Basic System.
+Apr  3 20:04:51 retropie systemd[616]: Reached target Default.
+Apr  3 20:04:51 retropie systemd[616]: Startup finished in 197ms.
+Apr  3 20:04:51 retropie systemd[1]: Started User Manager for UID 1000.
+Apr  3 20:04:51 retropie systemd[1]: Started Session 1 of user pi.
+Apr  3 20:04:52 retropie dhcpcd[472]: wlan0: leased 192.168.1.4 for 604800 seconds
+Apr  3 20:04:52 retropie avahi-daemon[421]: Joining mDNS multicast group on interface wlan0.IPv4 with address 192.168.1.4.
+Apr  3 20:04:52 retropie dhcpcd[472]: wlan0: adding route to 192.168.1.0/24
+Apr  3 20:04:52 retropie dhcpcd[472]: wlan0: adding default route via 192.168.1.1
+Apr  3 20:04:52 retropie avahi-daemon[421]: New relevant interface wlan0.IPv4 for mDNS.
+Apr  3 20:04:52 retropie avahi-daemon[421]: Registering new address record for 192.168.1.4 on wlan0.IPv4.
+Apr  3 20:04:52 retropie systemd[1]: systemd-rfkill.service: Succeeded.
+Apr  3 20:04:53 retropie bthelper[589]: Changing power off succeeded
+Apr  3 20:04:53 retropie bt-device[695]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:04:53 retropie bt-device[695]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:04:53 retropie bt-device[695]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:04:53 retropie bt-device[695]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:04:53 retropie bt-device[695]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:04:53 retropie bt-device[695]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:04:53 retropie bt-device[695]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:04:53 retropie bt-device[695]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:04:53 retropie bt-device[695]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:04:53 retropie bthelper[589]: Changing power on succeeded
+Apr  3 20:04:57 retropie systemd[1]: Started Samba NMB Daemon.
+Apr  3 20:04:57 retropie systemd[1]: Starting Samba SMB Daemon...
+Apr  3 20:04:57 retropie systemd[1]: Started Samba SMB Daemon.
+Apr  3 20:04:57 retropie systemd[1]: Reached target Multi-User System.
+Apr  3 20:04:57 retropie systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Apr  3 20:04:57 retropie systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Apr  3 20:04:57 retropie systemd[1]: Started Update UTMP about System Runlevel Changes.
+Apr  3 20:04:57 retropie systemd[1]: Startup finished in 1.144s (kernel) + 1min 30.434s (userspace) = 1min 31.579s.
+Apr  3 20:04:58 retropie bt-device[718]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:04:58 retropie bt-device[718]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:04:58 retropie bt-device[718]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:04:58 retropie bt-device[718]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:04:58 retropie bt-device[718]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:04:58 retropie bt-device[718]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:04:59 retropie dhcpcd[472]: wlan0: fe80::7edb:98ff:fe65:82e9 is reachable again
+Apr  3 20:04:59 retropie dhcpcd[472]: wlan0: fe80::7edb:98ff:fe65:82e9 is reachable again
+Apr  3 20:05:02 retropie systemd[1]: Created slice User Slice of UID 0.
+Apr  3 20:05:02 retropie systemd[1]: Starting User Runtime Directory /run/user/0...
+Apr  3 20:05:02 retropie systemd[1]: Started User Runtime Directory /run/user/0.
+Apr  3 20:05:02 retropie systemd[1]: Starting User Manager for UID 0...
+Apr  3 20:05:02 retropie systemd[829]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr  3 20:05:02 retropie systemd[829]: Listening on GnuPG cryptographic agent and passphrase cache.
+Apr  3 20:05:02 retropie systemd[829]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Apr  3 20:05:02 retropie systemd[829]: Reached target Paths.
+Apr  3 20:05:02 retropie systemd[829]: Listening on GnuPG network certificate management daemon.
+Apr  3 20:05:02 retropie systemd[829]: Reached target Timers.
+Apr  3 20:05:02 retropie systemd[829]: Starting D-Bus User Message Bus Socket.
+Apr  3 20:05:02 retropie systemd[829]: Condition check resulted in Sound System being skipped.
+Apr  3 20:05:02 retropie systemd[829]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Apr  3 20:05:02 retropie systemd[829]: Listening on D-Bus User Message Bus Socket.
+Apr  3 20:05:02 retropie systemd[829]: Reached target Sockets.
+Apr  3 20:05:02 retropie systemd[829]: Reached target Basic System.
+Apr  3 20:05:02 retropie systemd[829]: Reached target Default.
+Apr  3 20:05:02 retropie systemd[1]: Started User Manager for UID 0.
+Apr  3 20:05:02 retropie systemd[829]: Startup finished in 209ms.
+Apr  3 20:05:02 retropie systemd[1]: Started Session 3 of user root.
+Apr  3 20:05:03 retropie bt-device[846]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:05:03 retropie bt-device[846]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:05:03 retropie bt-device[846]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:05:03 retropie bt-device[846]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:05:03 retropie bt-device[846]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:05:03 retropie [846]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:05:09 retropie bt-device[864]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:05:09 retropie bt-device[864]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:05:09 retropie bt-device[864]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:05:09 retropie bt-device[864]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:05:09 retropie bt-device[864]: g_dbus_proxy_call_sync_internal: assertion 'error == NULL || *error == NULL' failed
+Apr  3 20:05:09 retropie systemd[1]: systemd-fsckd.service: Succeeded.
+Apr  3 20:05:10 retropie dhcpcd[472]: wlan0: Router Advertisement from fe80::7edb:98ff:fe65:82e9
+Apr  3 20:05:29 retropie systemd-timesyncd[381]: Synchronized to time server for the first time [2600:2600::99]:123 (2.debian.pool.ntp.org).
+Apr  3 20:05:36 retropie systemd[1]: systemd-hostnamed.service: Succeeded.
+Apr  3 20:05:52 retropie dhcpcd[472]: wlan0: Router Advertisement from fe80::7edb:98ff:fe65:82e9
+Apr  3 20:05:53 retropie systemd[1]: connect-bluetooth.service: Succeeded.
+Apr  3 20:06:15 retropie dhcpcd[472]: wlan0: Router Advertisement from fe80::7edb:98ff:fe65:82e9
+Apr  3 20:06:16 retropie kernel: [  124.755374] XPi Gamecon CRC Error: 5251 0001
+Apr  3 20:06:39 retropie dhcpcd[472]: wlan0: Router Advertisement from fe80::7edb:98ff:fe65:82e9
+Apr  3 20:06:47 retropie systemd[1]: Started Session 5 of user root.
